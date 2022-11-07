@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* :root = html */
+/*hue (tono), saturation, lightness(brillo)*/
+:root {
+    --color-primario1: hsl(179, 62%, 43%);
+    --color-primario2: hsl(71, 73%, 54%);
+    --color-secundario1: hsl(204, 43%, 93%);
+    --color-secundario2: hsl(218, 22%, 67%);
+    --border-radius:var(--border-radius)
+}
+
+* {
+    
+    box-sizing: border-box;
+       
+
+}
+
+
+
+body {
+    background-color: var(--color-secundario2);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    margin: 0;
+
+    
+
+}
+/* maquetacion */
+.mibody{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundario1);
+    
+}
+/* diseño de fuentes */
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+    color: var(--color-secundario1);
+}
+
+section{
+    padding: 1em;
+}
+
+.container {
+    color: var(--color-secundario2);
+    background-color: var(--color-secundario1);
+    width: 400px;
+    /* margin-left:auto;
+    margin-right: auto; */
+    max-width: 900px;
+    
+     
+
+}
+
+.seccion-principal {
+    background-color:white;
+    
+}
+
+.principal {
+    color: var(--color-primario1);
+    margin: 0px;
+    font-size:1 ;
+}
+
+.secundario {
+    color: var(--color-primario2);
+}
+
+p {
+    color: var(--color-secundario2);
+}
+
+.izquierda p,
+.izquierda h1,
+.derecha h1,
+.suscripcion {
+    color: var(--color-secundario1);
+}
+
+.precio {
+    font-size: 30px;
+    margin-right: 5px;
+
+}
+
+.botton {
+    width: 100%;
+    padding: .8em 0;
+    background-color: var(--color-primario2);
+    color: white;
+    font-weight: 700;
+    border-radius : .5em;
+    box-shadow: 0 0 5px 0 ;color: ;
+}
+
+.secciones {
+    background-color: var(--color-primario1);
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-shrink: 1em ;
+    flex-grow: 1em;
+    
+}
+
+.seccion.seccion-principal{
+   
+    padding: 5%;
+
+}
+
+.derecha {
+    background-color: hsl(180, 64%, 40%);
+}
+
+
+/* - Cyan: 
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+/* - Grayish Blue: hsl(218, 22%, 67%) */
+/* reseteo */
